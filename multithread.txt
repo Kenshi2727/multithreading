@@ -130,7 +130,7 @@
 
 
 7)sleep(): This Method is used to pause the execution of current thread for a specified time in Milliseconds. Here, Thread does not
-  =======  lose its ownership of the monitor and resume’s it’s execution
+  =======  lose its ownership of the monitor and resumeâ€™s itâ€™s execution
 
 
  Example-
@@ -148,8 +148,8 @@ Thread.sleep(1000);  Here Lock Is Held By The Current Thread
 
 
  wait(): This method is defined in object class. It tells the calling thread (a.k.a Current Thread) to wait until another thread 
- ======  invoke’s the notify() or notifyAll() method for this object, The thread waits until it reobtains the ownership of the monitor 
-         and resume’s execution.
+ ======  invokeâ€™s the notify() or notifyAll() method for this object, The thread waits until it reobtains the ownership of the monitor 
+         and resumeâ€™s execution.
 
 
 
@@ -160,7 +160,7 @@ Thread.sleep(1000);  Here Lock Is Held By The Current Thread
 
 synchronized(resource1)
 {
-monitor.wait()  Here Lock Is Released By Current Thread 
+resource1.wait()  Here Lock Is Released By Current Thread 
 }
 
 
